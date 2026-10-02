@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A student profile and CSS selector demonstration.">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .profile-description {
+            color: #3d5268;
+            background-color: #eaf4ff;
+            font-size: 1.05rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <section class="profile" aria-labelledby="page-title">
+            <h1 id="page-title">Student Profile</h1>
+            <img class="profile-image" src="student-avatar.svg" alt="Illustrated student avatar">
+            <h2 style="color: #1769aa; font-size: 1.6rem; text-align: center;">Sujat budhathoki</h2>
+            <p class="student-id"><strong>Student ID:</strong> 213526467</p>
+            <p class="programme"><strong>Programme:</strong> Diploma in Information Technology</p>
+            <p class="profile-description">
+                I am an enthusiastic student who enjoys building useful web experiences and learning
+                how technology can solve everyday problems.
+            </p>
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML and CSS</li>
+                <li>JavaScript fundamentals</li>
+                <li>Problem solving</li>
+            </ul>
+        </section>
+
+        <section class="div-examples" aria-labelledby="div-examples-title">
+            <h2 id="div-examples-title">Three Div Styling Examples</h2>
+            <div>
+                <h3>First div: element selector</h3>
+                <p>All three example divs share a border, padding, margin, height, and width.</p>
+            </div>
+            <div class="second-div">
+                <h3>Second div: class selector</h3>
+                <p>This div uses a class to add its own background color and text color.</p>
+            </div>
+            <div id="third-div">
+                <h3>Third div: ID selector</h3>
+                <p>This div uses an ID to align its text and give it a different background.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

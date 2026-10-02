@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Student avatar</title>
+  <rect width="160" height="160" fill="#d8eaff"/>
+  <circle cx="80" cy="59" r="30" fill="#f0c7a4"/>
+  <path d="M49 58c0-24 14-38 32-38 20 0 32 15 31 39-7-7-13-17-16-25-10 12-27 19-47 19z" fill="#34465a"/>
+  <path d="M31 160c3-34 21-52 49-52s46 18 49 52" fill="#3975a8"/>
+  <path d="M61 106l19 20 19-20" fill="#fff"/>
+</svg>
